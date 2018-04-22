@@ -5,6 +5,10 @@
 
 ```
 $ docker-compose up
+
+$ docker-compose exec app bundle i
+$ docker-compose exec app npm i
+
 $ docker-compose exec app rails s
 $ docker-compose exec app bin/webpack-dev-server
 ```
